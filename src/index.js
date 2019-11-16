@@ -18,4 +18,4 @@ const onInputChange = async e => {
   createCountrieList(results);
 };
 
-searchInput.addEventListener('input', debounce(onInputChange, 5000));
+searchInput.addEventListener('input', debounce(onInputChange, 500));

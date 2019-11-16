@@ -8,15 +8,20 @@ body {
   background-image: url(../src/images/bg.png);
 }
 
+.main_title {
+  width: 450px;
+  margin: 20px auto 30px;
+  text-align: center;
+}
+
 .search_input {
   display: block;
   height: 35px;
   width: 350px;
   font-size: 20px;
-  margin: 50px auto 30px;
+  margin: 0 auto 30px;
   padding-left: 8px;
   border: 1px solid #000000;
-  /* background: #000; */
 }
 
 .result_list {
